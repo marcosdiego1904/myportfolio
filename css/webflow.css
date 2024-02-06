@@ -89,10 +89,16 @@ html.w-mod-touch * {
   display: flex;
   flex-direction: column;
 }
-.video-container>iframe{
-  height: 100%;
-
+.controlar>video{
+  width: 100%;
+  height: 350px;
 }
+/*.video-container>video{
+  height: 100%;
+}
+video{
+  height: 450px;
+}*/
 .video-text{
   color: white;
   text-align: center;
