@@ -760,6 +760,18 @@ textarea.w-select {
   .w-container {
     max-width: none;
   }
+  .prueba{
+    margin-top:-100px;
+  }
+  .about-section{
+    margin-top: 170px;
+  }
+  .formbold-main-wrapper{
+    width: 100%;
+  }
+  .formbold-input-flex{
+    margin-right: 20px;
+  }
   .w-hidden-main {
     display: inherit !important;
   }
