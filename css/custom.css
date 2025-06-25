@@ -234,6 +234,9 @@ html {
 .experience-item {
   position: relative;
   margin-bottom: 2.5rem;
+  background-color: transparent;
+  border: none;
+  padding: 0;
 }
 
 .experience-item:last-child {
@@ -281,6 +284,11 @@ html {
 }
 
 /* --- UNIFIED DARK THEME (V5) --- */
+
+/* Add transition for smooth effect */
+.navbar.w-nav {
+  transition: background-color 0.4s ease, padding 0.4s ease !important;
+}
 
 /* --- LAYOUT FIXES --- */
 .page-wrapper {
@@ -1007,8 +1015,7 @@ html {
   .skill-category:hover,
   .education-item:hover,
   .experience-item:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 25px rgba(246, 224, 94, 0.2);
   }
   
   /* Improve project image interactions */
@@ -1195,5 +1202,16 @@ html {
     background-color: transparent;
     border: none;
     padding: 0;
+    transition: box-shadow 0.3s ease;
   }
+
+  .skill-category:hover,
+  .education-item:hover,
+  .experience-item:hover {
+    box-shadow: 0 0 20px rgba(246, 224, 94, 0.1);
+  }
+}
+
+.navbar-hidden {
+  transform: translateY(0%) !important;
 }
