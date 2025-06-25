@@ -80,8 +80,7 @@ html.w-mod-touch * {
 }
 
 .proyects{
-  margin-top: 50px;
-  margin-bottom: -150px;
+  margin-bottom: 50px;
 }
 .proyects-sub{
  
@@ -108,7 +107,7 @@ html.w-mod-touch * {
   border-radius: 10px;
 }
 .pro-name{
-  margin-top: 10px;
+  
   font-size: 30px;
 }
 .pro-name a{
@@ -236,7 +235,7 @@ font-style: normal;
 
 }
 .footer{
-  margin-top: 20%;
+  
 }
 .footer1{
  font-size: 31px;
@@ -1077,7 +1076,7 @@ textarea.w-select {
     margin-top:-100px;
   }
   .about-section{
-    margin-top: 170px;
+    margin-top: -30px;
   }
   .formbold-main-wrapper{
     width: 100%;

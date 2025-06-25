@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marcos Barzola | Frontend Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --primary: #2c5282;
+      --secondary: #4299e1;
+      --dark: #2d3748;
+      --gray: #718096;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f7fafc;
+      color: var(--dark);
+      padding: 2rem;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      box-shadow: 0 0 15px rgba(0,0,0,0.05);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    header {
+      background: linear-gradient(to right, #1a365d, var(--primary));
+      color: white;
+      padding: 2rem;
+    }
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 0.25rem;
+    }
+    header p {
+      font-size: 1rem;
+      color: #cbd5e0;
+    }
+    .contact {
+      margin-top: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      font-size: 0.85rem;
+    }
+    .section {
+      padding: 1.5rem 2rem;
+      border-bottom: 1px solid #edf2f7;
+    }
+    .section h2 {
+      font-size: 1.2rem;
+      color: var(--primary);
+      margin-bottom: 0.75rem;
+    }
+    .section p,
+    .section ul {
+      font-size: 0.9rem;
+      color: #4a5568;
+    }
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .project, .job {
+      margin-bottom: 1rem;
+    }
+    .project a,
+    .job span.date {
+      color: var(--secondary);
+      font-size: 0.85rem;
+    }
+    .education span {
+      display: block;
+      color: var(--gray);
+      font-size: 0.85rem;
+    }
+    @media print {
+      body {
+        padding: 0;
+      }
+      .container {
+        box-shadow: none;
+      }
+      header {
+        color: white;
+        background: #1a365d !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Marcos Barzola </h1>
+      <p>Frontend Developer | React & TypeScript Specialist </p>
+      <div class="contact">
+        <span>📍 Harrisburg, PA </span>
+        <span>📞 (717) 440-5297 </span>
+        <span>📧 marcosbarzola@devbymarcos.com </span>
+        <span>🔗 <a href="https://lamptomyfeet.co" style="color:#f6e05e">lamptomyfeet.co</a> </span>
+        <span>💻 <a href="https://github.com/marcosdiego1904" style="color:#f6e05e">GitHub</a> </span>
+      </div>
+    </header>
+
+    <section class="section">
+      <h2>Professional Profile</h2>
+      <p>Results-oriented Frontend Developer experienced in building scalable web apps using React, TypeScript, and modern web technologies. Creator of <strong>Lamp to My Feet</strong>, a production-level biblical memorization app with real users and a gamification system. Demonstrated ability to lead projects from scratch, make effective UI/UX decisions, and critically apply AI-generated solutions. Seeking to contribute to a team where I can continue to grow professionally and create products with purpose.</p>
+    </section>
+
+    <section class="section">
+      <h2>Technical Skills</h2>
+      <div class="skills">
+        <div>
+          <strong>Frontend:</strong><br> React (Intermediate-Advanced) , TypeScript , JavaScript (ES6+) , HTML5 , CSS3 
+        </div>
+        <div>
+          <strong>Tools & Frameworks:</strong><br> Vite , Axios , TanStack Query , Framer Motion , ESLint , Tailwind CSS , Bootstrap 
+        </div>
+        <div>
+          <strong>Testing:</strong><br> React Testing Library , Vitest 
+        </div>
+        <div>
+          <strong>Version Control & Database:</strong><br> Git , GitHub , MySQL 
+        </div>
+        <div>
+          <strong>Additional Skills:</strong><br> Node.js (Basic) , AI Tools (e.g. Cursor) , Python , Java (Intermediate) , RESTful APIs , Vercel 
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Personal Projects</h2>
+      <div class="project">
+        <strong>Apartment Management Portal (apartsFront)</strong> — <a href="https://github.com/marcosdiego1904/apartsFront">GitHub</a> | <a href="https://aparts-front-98pp.vercel.app">Live Demo</a>
+        <p>Developed a comprehensive frontend web application to address a real business need for an apartment complex, offering features for tenants and managers. This project was initiated after a third-party proposal was declined due to cost, demonstrating proactive problem-solving and ability to deliver value independently. Key functionalities include maintenance request submission and tracking, payment management, tenant and unit oversight (add, view, remove), and review/comment capabilities. Built with React, TypeScript, React Router, Tailwind CSS, Axios, and tested using Vitest and React Testing Library.</p>
+      </div>
+      <div class="project">
+        <strong>Lamp to My Feet - Biblical Memorization Web App</strong> — <a href="https://github.com/marcosdiego1904">GitHub</a> | <a href="https://lamptomyfeet.co">Live Demo</a>
+        <p>Developed and launched a production-ready web application with 10+ active users. Implemented scientifically-proven cognitive methodologies (Active Recall, Spaced Repetition, Chunking) through a six-stage interactive learning flow with gamification. Built with React, TypeScript, TanStack Query, and Framer Motion. Integrated external Bible translation APIs and consumed data through RESTful endpoints. Utilized AI tools to accelerate development and optimize UI/UX decisions, demonstrating ability to deliver high-quality products in modern development environments.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Work Experience</h2>
+      <div class="job">
+        <strong>Inventory Manager Assistant</strong> – Ameripac, Mechanicsburg, PA  <span class="date">Nov 2023 – Apr 2024 </span>
+        <ul>
+          <li>Optimized aisle counting system, improving staff efficiency by 200% (from 2 employees/day per aisle to 1 employee/day for every two aisles).</li>
+          <li>Supervised daily operations and served as primary point of contact for problem resolution.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <strong>Inventory Specialist / Material Handler Supervisor</strong> – QPSI, Mechanicsburg, PA  <span class="date">Feb 2023 – Nov 2023 </span>
+        <ul>
+          <li>Led recovery of $50,000 in inventory losses, achieving 100% reduction through implementation of rigorous "cycle counts" program.</li>
+          <li>Trained 7 employees on new protocols and established culture of accountability across warehouse teams.</li>
+          <li>Mentored teams and resolved complex operational challenges to optimize workflows.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <strong>Career Progression at QPSI</strong> – QPSI, Mechanicsburg, PA  <span class="date">Jan 2022 – Feb 2023 </span>
+        <ul>
+          <li>Progressed through operational roles, building leadership and logistics skills.</li>
+          <li>Forklift Driver (Aug 2022 – Feb 2023) </li>
+          <li>Warehouse Lead (Jun 2022 – Nov 2022) </li>
+          <li>Shipping Clerk (Jan 2022 – Aug 2022) </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Education</h2>
+      <div class="education">
+        <strong>Associate in Computer Science</strong>
+        <span>University of the People | Expected: Jan 2026 </span>
+        <span>Relevant Courses: Web Programming, Databases, Python, Java 1 & 2, Networking </span>
+        <span>Achievements: Scholarship recipient for outstanding academic performance.</span>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
