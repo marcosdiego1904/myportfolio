@@ -11,7 +11,7 @@ const faqs = [
       <div className="space-y-4">
         <p>Three reasons:</p>
         <ol className="list-decimal pl-5 space-y-2">
-          <li>I use AI-assisted development to code 3x faster than traditional methods</li>
+          <li>I use AI-assisted development (Gemini Certified) to code 3x faster than traditional methods</li>
           <li>I focus on MVP scope — no feature bloat, just what you need to validate</li>
           <li>I've done this before (see WareWise and Lamp to My Feet above)</li>
         </ol>
