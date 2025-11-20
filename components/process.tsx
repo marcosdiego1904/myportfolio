@@ -77,6 +77,7 @@ export function Process() {
 
   return (
     <section
+      id="process"
       ref={ref}
       className={`py-24 px-4 sm:px-6 lg:px-8 relative overflow-hidden transition-all duration-1000 ${
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"

@@ -35,11 +35,14 @@ export function Hero() {
             {/* CTAs */}
             <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
               <Button
+                asChild
                 size="lg"
                 className="group h-12 bg-gradient-to-r from-primary to-primary/90 px-8 text-base font-semibold text-primary-foreground hover:from-primary/90 hover:to-primary shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 transition-all duration-300 hover:scale-105"
               >
-                Book Free Discovery Call
-                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                <a href="https://calendly.com/marcosbarzola-devbymarcos/30min" target="_blank" rel="noopener noreferrer">
+                  Book Free Discovery Call
+                  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </a>
               </Button>
               <Button
                 size="lg"
