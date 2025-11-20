@@ -52,7 +52,7 @@ export function Solution() {
               <div className="grid gap-4">
                 {[
                   { text: "Full-stack development (React, TypeScript, Node.js, databases)", icon: "💻" },
-                  { text: "AI-assisted coding (3x faster than traditional development)", icon: "⚡" },
+                  { text: "AI-assisted coding (Gemini Certified, 3x faster than traditional development)", icon: "⚡" },
                   { text: "Product thinking (build what users need, not just what you ask for)", icon: "🎯" },
                 ].map((skill, index) => (
                   <div

@@ -42,7 +42,7 @@ export function Process() {
         "Daily progress updates via Slack/email",
         "Working demos every 3-4 days (you see progress, not just promises)",
         "Your feedback incorporated in real-time",
-        "AI-assisted development for 3x speed",
+        "AI-assisted development (Gemini Certified) for 3x speed",
       ],
       result: "You're involved throughout, not left in the dark.",
     },
