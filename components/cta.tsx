@@ -45,12 +45,15 @@ export function Cta() {
           </div>
 
           <Button
+            asChild
             size="lg"
             className="bg-[var(--accent-primary)] hover:bg-[var(--accent-primary)]/90 text-white h-16 px-10 text-lg font-semibold rounded-full shadow-[0_0_30px_-5px_var(--accent-primary)] hover:shadow-[0_0_50px_-5px_var(--accent-primary)] hover:scale-105 transition-all duration-300 group"
           >
-            <Calendar className="mr-2 h-5 w-5" />
-            Book Your Free Discovery Call
-            <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+            <a href="https://calendly.com/marcosbarzola-devbymarcos/30min" target="_blank" rel="noopener noreferrer">
+              <Calendar className="mr-2 h-5 w-5" />
+              Book Your Free Discovery Call
+              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+            </a>
           </Button>
 
           <p className="text-sm text-[var(--text-secondary)] mt-6">

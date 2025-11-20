@@ -8,6 +8,7 @@ export function Portfolio() {
 
   return (
     <section
+      id="portfolio"
       ref={ref}
       className={`relative py-24 px-4 overflow-hidden transition-all duration-1000 ${
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
@@ -114,10 +115,15 @@ export function Portfolio() {
 
               {/* CTAs */}
               <div className="flex flex-wrap gap-4">
-                <button className="px-6 py-3 bg-accent-primary text-bg-primary rounded-lg font-semibold hover:bg-accent-primary/90 transition-colors flex items-center gap-2 group/btn">
+                <a
+                  href="https://ware-eng.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-3 bg-accent-primary text-bg-primary rounded-lg font-semibold hover:bg-accent-primary/90 transition-colors flex items-center gap-2 group/btn"
+                >
                   View Live Demo
                   <ArrowRight className="h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -212,10 +218,15 @@ export function Portfolio() {
 
               {/* CTAs */}
               <div className="flex flex-wrap gap-4">
-                <button className="px-6 py-3 bg-accent-secondary text-bg-primary rounded-lg font-semibold hover:bg-accent-secondary/90 transition-colors flex items-center gap-2 group/btn">
+                <a
+                  href="https://www.lamptomyfeet.co"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-3 bg-accent-secondary text-bg-primary rounded-lg font-semibold hover:bg-accent-secondary/90 transition-colors flex items-center gap-2 group/btn"
+                >
                   Try the App
                   <ArrowRight className="h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
-                </button>
+                </a>
               </div>
             </div>
           </div>

@@ -119,6 +119,7 @@ export function Faq() {
 
   return (
     <section
+      id="faq"
       ref={ref}
       className={`py-20 px-6 bg-[#0A0A0A] transition-all duration-1000 ${
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"

@@ -66,6 +66,7 @@ export function Packages() {
 
   return (
     <section
+      id="packages"
       ref={ref}
       className={`relative py-24 px-6 transition-all duration-1000 ${
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
@@ -146,14 +147,17 @@ export function Packages() {
 
                 {/* CTA button */}
                 <Button
+                  asChild
                   className={`w-full group/btn text-white ${
                     pkg.popular
                       ? "bg-accent-primary hover:bg-accent-primary/90"
                       : "bg-white/5 hover:bg-white/10 border border-border-dark hover:border-accent-primary"
                   }`}
                 >
-                  Book Discovery Call
-                  <ArrowRight className="w-4 h-4 ml-2 group-hover/btn:translate-x-1 transition-transform" />
+                  <a href="https://calendly.com/marcosbarzola-devbymarcos/30min" target="_blank" rel="noopener noreferrer">
+                    Book Discovery Call
+                    <ArrowRight className="w-4 h-4 ml-2 group-hover/btn:translate-x-1 transition-transform" />
+                  </a>
                 </Button>
               </div>
             </div>
