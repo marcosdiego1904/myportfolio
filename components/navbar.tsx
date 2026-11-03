@@ -5,9 +5,10 @@ import { Button } from "@/components/ui/button"
 
 export function Navbar() {
   const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
-    e.preventDefault()
     const element = document.getElementById(id)
+    // On other pages (e.g. /privacy) the section isn't here, so let the link go to the home page.
     if (element) {
+      e.preventDefault()
       const offset = 80 // Height of navbar
       const elementPosition = element.getBoundingClientRect().top
       const offsetPosition = elementPosition + window.pageYOffset - offset
@@ -31,28 +32,28 @@ export function Navbar() {
           {/* Navigation Links */}
           <div className="hidden items-center space-x-6 md:flex">
             <Link
-              href="#portfolio"
+              href="/#portfolio"
               onClick={(e) => scrollToSection(e, "portfolio")}
               className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
             >
               Work
             </Link>
             <Link
-              href="#packages"
+              href="/#packages"
               onClick={(e) => scrollToSection(e, "packages")}
               className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
             >
               Packages
             </Link>
             <Link
-              href="#process"
+              href="/#process"
               onClick={(e) => scrollToSection(e, "process")}
               className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
             >
               Process
             </Link>
             <Link
-              href="#faq"
+              href="/#faq"
               onClick={(e) => scrollToSection(e, "faq")}
               className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
             >

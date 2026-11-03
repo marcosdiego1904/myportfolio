@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           {/* Brand Column */}
           <div className="flex flex-col items-center md:items-start gap-4">
-            <Link href="#" className="flex items-center gap-3 group">
+            <Link href="/" className="flex items-center gap-3 group">
               <span className="text-2xl font-bold">Marcos Barzola</span>
             </Link>
             <p className="text-sm text-[var(--text-secondary)] max-w-xs text-center md:text-left leading-relaxed">
@@ -21,25 +21,25 @@ export function Footer() {
             <h3 className="text-sm font-semibold uppercase tracking-wider text-[var(--text-secondary)]">Quick Links</h3>
             <nav className="flex flex-col items-center md:items-start gap-3">
               <Link
-                href="#portfolio"
+                href="/#portfolio"
                 className="text-[var(--text-secondary)] hover:text-[var(--accent-primary)] transition-colors"
               >
                 Work
               </Link>
               <Link
-                href="#packages"
+                href="/#packages"
                 className="text-[var(--text-secondary)] hover:text-[var(--accent-primary)] transition-colors"
               >
                 Packages
               </Link>
               <Link
-                href="#process"
+                href="/#process"
                 className="text-[var(--text-secondary)] hover:text-[var(--accent-primary)] transition-colors"
               >
                 Process
               </Link>
               <Link
-                href="#faq"
+                href="/#faq"
                 className="text-[var(--text-secondary)] hover:text-[var(--accent-primary)] transition-colors"
               >
                 FAQ
