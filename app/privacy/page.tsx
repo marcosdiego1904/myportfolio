@@ -15,16 +15,16 @@ export default function PrivacyPage() {
     <LegalPage title="Privacy Policy" effectiveDate="November 2, 2026">
       <LegalSection id="who-we-are" title="1. Who we are and how to contact us">
         <p>
-          This Privacy Policy explains how [LEGAL BUSINESS NAME] (&quot;we&quot;, &quot;us&quot;) handles information.
+          This Privacy Policy explains how Marcos Diego Barzola (&quot;we&quot;, &quot;us&quot;) handles information.
           We run an AI voice receptionist for small service businesses in the Harrisburg, Pennsylvania area. It answers
           calls a business owner cannot pick up, in English or Spanish.
         </p>
         <p>You can contact us at:</p>
         <ul>
-          <li>[LEGAL BUSINESS NAME]</li>
-          <li>Address: [BUSINESS ADDRESS]</li>
-          <li>Email: [CONTACT EMAIL]</li>
-          <li>Phone: [CONTACT PHONE]</li>
+          <li>Marcos Diego Barzola</li>
+          <li>Address: 4591 Larch Dr</li>
+          <li>Email: marcosbarzola@devbymarcos.com</li>
+          <li>Phone: (717) 440-5297</li>
         </ul>
       </LegalSection>
 
@@ -78,7 +78,7 @@ export default function PrivacyPage() {
           At the start of every call, the assistant tells the caller that it is an AI and that the call may be
           recorded.
         </p>
-        <p>We keep call recordings and transcripts for [RECORDING RETENTION PERIOD].</p>
+        <p>We keep call recordings and transcripts for 30 days.</p>
       </LegalSection>
 
       <LegalSection id="sharing" title="5. Who we share information with">
@@ -112,8 +112,7 @@ export default function PrivacyPage() {
           <strong>How to stop.</strong> Reply STOP to any message to stop receiving text messages.
         </p>
         <p>
-          <strong>How to get help.</strong> Reply HELP to any message, or contact us at [CONTACT EMAIL] or [CONTACT
-          PHONE].
+          <strong>How to get help.</strong> Reply HELP to any message, or contact us at marcosbarzola@devbymarcos.com or (717) 440-5297.
         </p>
         <p>
           <strong>
@@ -128,7 +127,7 @@ export default function PrivacyPage() {
 
       <LegalSection id="retention-security" title="7. Data retention and security">
         <p>
-          We keep call recordings and transcripts for [RECORDING RETENTION PERIOD]. We keep other information only as
+          We keep call recordings and transcripts for 30 days. We keep other information only as
           long as we need it to provide the service or to meet legal requirements.
         </p>
         <p>
@@ -139,7 +138,7 @@ export default function PrivacyPage() {
 
       <LegalSection id="your-choices" title="8. Your choices and requests">
         <p>
-          You can ask us to access or delete information we hold about you. Email us at [CONTACT EMAIL] and tell us
+          You can ask us to access or delete information we hold about you. Email us at marcosbarzola@devbymarcos.com and tell us
           what you are asking for. We may need to confirm your identity before we act on your request.
         </p>
       </LegalSection>
