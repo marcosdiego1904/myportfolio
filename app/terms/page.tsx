@@ -122,7 +122,7 @@ export default function TermsPage() {
         <p>Questions about these Terms? Contact us at:</p>
         <ul>
           <li>Marcos Diego Barzola</li>
-          <li>Address: 4591 Larch Dr</li>
+          <li>Address: 4591 Larch Dr, Harrisburg, PA 17109</li>
           <li>Email: marcosbarzola@devbymarcos.com</li>
           <li>Phone: (717) 440-5297</li>
         </ul>
