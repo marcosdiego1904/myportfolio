@@ -74,9 +74,15 @@ export function Footer() {
         <div className="border-t border-[var(--border-dark)] pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-[var(--text-secondary)] text-center md:text-left">
-              © 2025 Marcos Barzola. All rights reserved.
+              © 2025 Marcos Diego Barzola Sr, operating as Marcos Barzola. All rights reserved.
             </p>
             <div className="flex items-center gap-6">
+              <Link
+                href="/signup"
+                className="text-sm text-[var(--text-secondary)] hover:text-[var(--accent-primary)] transition-colors"
+              >
+                Sign Up
+              </Link>
               <Link
                 href="/privacy"
                 className="text-sm text-[var(--text-secondary)] hover:text-[var(--accent-primary)] transition-colors"

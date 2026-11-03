@@ -15,7 +15,7 @@ export default function TermsPage() {
     <LegalPage title="Terms of Service" effectiveDate="November 2, 2026">
       <LegalSection id="about" title="1. About the service">
         <p>
-          Marcos Diego Barzola (&quot;we&quot;, &quot;us&quot;) provides an AI voice receptionist for small service
+          Marcos Diego Barzola Sr, operating as Marcos Barzola (&quot;we&quot;, &quot;us&quot;) provides an AI voice receptionist for small service
           businesses in the Harrisburg, Pennsylvania area. It answers calls a business owner cannot pick up, in English
           or Spanish.
         </p>
@@ -76,8 +76,8 @@ export default function TermsPage() {
             receptionist.
           </li>
           <li>
-            <strong>How to opt in:</strong> The business owner checks an unchecked box in the sign-up form to agree to
-            receive these texts.
+            <strong>How to opt in:</strong> The business owner checks an unchecked box in the{" "}
+            <Link href="/signup">sign-up form</Link> to agree to receive these texts.
           </li>
           <li>
             <strong>Frequency:</strong> Message frequency varies with the number of calls received.
@@ -121,7 +121,7 @@ export default function TermsPage() {
       <LegalSection id="contact" title="10. Contact">
         <p>Questions about these Terms? Contact us at:</p>
         <ul>
-          <li>Marcos Diego Barzola</li>
+          <li>Marcos Diego Barzola Sr, operating as Marcos Barzola</li>
           <li>Address: 4591 Larch Dr, Harrisburg, PA 17109</li>
           <li>Email: marcosbarzola@devbymarcos.com</li>
           <li>Phone: (717) 440-5297</li>

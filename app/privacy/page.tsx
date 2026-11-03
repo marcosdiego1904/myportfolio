@@ -15,13 +15,13 @@ export default function PrivacyPage() {
     <LegalPage title="Privacy Policy" effectiveDate="November 2, 2026">
       <LegalSection id="who-we-are" title="1. Who we are and how to contact us">
         <p>
-          This Privacy Policy explains how Marcos Diego Barzola (&quot;we&quot;, &quot;us&quot;) handles information.
+          This Privacy Policy explains how Marcos Diego Barzola Sr, operating as Marcos Barzola (&quot;we&quot;, &quot;us&quot;) handles information.
           We run an AI voice receptionist for small service businesses in the Harrisburg, Pennsylvania area. It answers
           calls a business owner cannot pick up, in English or Spanish.
         </p>
         <p>You can contact us at:</p>
         <ul>
-          <li>Marcos Diego Barzola</li>
+          <li>Marcos Diego Barzola Sr, operating as Marcos Barzola</li>
           <li>Address: 4591 Larch Dr, Harrisburg, PA 17109</li>
           <li>Email: marcosbarzola@devbymarcos.com</li>
           <li>Phone: (717) 440-5297</li>
@@ -101,6 +101,10 @@ export default function PrivacyPage() {
           <strong>What the texts are.</strong> After each call, we send a text message summary of the call to the
           business owner who signed up for the AI receptionist. Only business owners receive these text messages.
           Callers do not receive text messages from us.
+        </p>
+        <p>
+          <strong>How business owners opt in.</strong> The business owner checks an unchecked box in our{" "}
+          <Link href="/signup">sign-up form</Link> to agree to receive these texts.
         </p>
         <p>
           <strong>Message frequency.</strong> Message frequency varies with the number of calls the business receives.
